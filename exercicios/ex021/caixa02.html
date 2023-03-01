@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            border-radius: 5px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: gray;
+            padding: 5px 15px;
+            box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.651);/*inset 3px 3px 5px rgba(0, 0, 0, 0.651) para efeito afundado*/
+            border-radius: 20px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        section{
+            padding-top: 10px;
+        }
+        article{
+            margin-top: 15px;
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+        }
+        aside{
+            background-color: rgb(170, 170, 170);
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 0px 5px 5px 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        </nav>
+    </header>
+    <main>
+        <section> Esportes Política Tecnologia
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur atque nesciunt dolorum fugit. Esse, illum! Consectetur tempora exercitationem, minus voluptatum illum fugit molestiae! Officiis ullam in eum aspernatur omnis molestias.</p>
+                <aside>artigo escrito por Jenifer Sofia</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ovejero</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
