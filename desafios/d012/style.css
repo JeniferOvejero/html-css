@@ -20,7 +20,7 @@ body{
     height: 100vh;
 }
 section{
-    padding: 10vh 0vh;
+    padding: 10vh 10vh 10vh 0vh;
     line-height: 2em;
     font-size: .9em;
 }
@@ -51,7 +51,7 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 footer{
-    font-size: 2vw;
+    font-size: 1em;
 }
 #fundo1{
     background: url(imagens/jardin02.png);
