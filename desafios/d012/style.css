@@ -19,6 +19,11 @@ body{
     font-family: var(--fonte1);
     height: 100vh;
 }
+section{
+    padding: 10vh 0vh;
+    line-height: 2em;
+    font-size: .9em;
+}
 section > pre{
     font-family: var(--fonte1);
 }
@@ -48,10 +53,8 @@ header a:hover, footer a:hover{
 footer{
     font-size: 2vw;
 }
-section{
-    padding: 10vh 0vh;
-    line-height: 2em;
-    font-size: 3vw;
+#fundo1{
+    background: url(imagens/jardin02.png);
 }
 .fundo2{
     background-color: var(--cor2);
@@ -66,5 +69,8 @@ section{
     background: url(imagens/jardin01.png) center center/cover no-repeat fixed;
 }
 #imagem2{
+    background: url(imagens/jardin02.png) center center/cover no-repeat fixed;
+}
+#imagem3{
     background: url(imagens/jardin03.png) center center/cover no-repeat fixed;
 }
